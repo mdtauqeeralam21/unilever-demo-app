@@ -17,13 +17,13 @@ const App = () => {
       <main className="flex-1 container mx-auto py-8">
       <section className="grid grid-cols-3 mb-8">
           <div className="grid grid-cols-3 gap-4 ">
-            <button className="bg-purple-800 text-xs px-1 py-1 text-white rounded-full active:bg-green-800">
+            <button className="bg-purple-800 text-xs px-1 py-1 text-white rounded-full hover:bg-green-300 active:bg-green-800">
               Production- 4
             </button>
-            <button className="bg-purple-800 text-xs px-1 py-1 text-white rounded-full active:bg-green-800">
+            <button className="bg-purple-800 text-xs px-1 py-1 text-white rounded-full hover:bg-green-300 active:bg-green-800">
               Production- 4
             </button>
-            <button className="bg-purple-800 text-xs px-1 py-1 text-white  rounded-full active:bg-green-800">
+            <button className="bg-purple-800 text-xs px-1 py-1 text-white  rounded-full hover:bg-green-300 active:bg-green-800">
               Online Promotions-1
             </button>
           </div>
@@ -32,13 +32,13 @@ const App = () => {
           </div>
           <div>
           <div className="grid grid-cols-3 gap-4 ">
-            <button className="bg-yellow-500 text-sm font-bold px-1 py-2 text-black rounded active:bg-green-800">
+            <button className="bg-yellow-500 text-sm font-bold px-1 py-2 text-black rounded hover:bg-yellow-300  active:bg-green-800">
               New Product +
             </button>
-            <button className="bg-yellow-500 text-sm font-bold px-1 py-2 text-black rounded active:bg-green-800">
+            <button className="bg-yellow-500 text-sm font-bold px-1 py-2 text-black rounded hover:bg-yellow-300 active:bg-green-800">
               Create Site +
             </button>
-            <button className="bg-yellow-500 text-sm font-bold px-1 py-2 text-black  rounded active:bg-green-800">
+            <button className="bg-yellow-500 text-sm font-bold px-1 py-2 text-black  rounded hover:bg-yellow-300 active:bg-green-800">
               Bulk Upload
             </button>
           </div>
@@ -144,7 +144,6 @@ const App = () => {
           </div>
 
 
-            {/* Card 3 */}
             <div className='grid grid-rows-6 '>
             <div className="grid grid-cols-2  gap-2 bg-white rounded-lg shadow-md">
 
